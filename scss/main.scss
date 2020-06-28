@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-$portraitz: url(../img/portrait.jpg);
 
 *{
   box-sizing: border-box;
@@ -79,7 +78,6 @@ main{
   .bio-image{
     width: 250px;
     height: 250px;
-    background: $portraitz;
     background: url(../img/portrait.jpg);
     grid-area: bioimage;
     margin: auto;
