@@ -73,7 +73,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait.jpg);
+      background: url(../img/rushi.jpg);
       border-radius: 50%;
       border: solid 3px #eece1a;
       background-size: cover; }
@@ -159,7 +159,7 @@ main {
   .about-info .bio-image {
     width: 250px;
     height: 250px;
-    background: url(../img/portrait.jpg);
+    background: url(../img/rushi.jpg);
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
