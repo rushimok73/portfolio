@@ -101,7 +101,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/vegeta.jpg);
+    background: url(../img/back.jpg);
     background-attachment: fixed;
     background-size: cover; }
   body:after {
@@ -180,11 +180,17 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    width: 100%;
-    border: 3px #fff solid; }
+    width: 75%;
+    margin-left: 150px;
+    border: 3px #000 solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a; }
+  .projects .card {
+    width: 75%;
+    border: 3px #123 solid;
+    margin-left: 150px;
+    font-size: 20px; }
 
 .boxes {
   display: flex;
@@ -207,6 +213,8 @@ main {
 
 .btn, .btn-dark, .btn-light {
   display: block;
+  margin-left: 150px;
+  width: 75%;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
@@ -231,7 +239,7 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: 1fr; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
